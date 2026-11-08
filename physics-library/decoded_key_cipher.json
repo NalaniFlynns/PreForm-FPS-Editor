@@ -1,0 +1,153 @@
+{
+  "note": "Category a0af713479e648a25fccc2ae784814b4befa025971f53b7defd23f0 未解混淆 hashed_key 物理真名密码本（全部经 F4/ST1 108 份配置逐位数值交叉验证）",
+  "category_key": "a0af713479e648a25fccc2ae784814b4befa025971f53b7defd23f0",
+  "key_count": 20,
+  "derivation_rules": {
+    "t_normal_exp_s": "E_norm_mJcm2 / I_norm_mWcm2",
+    "t_early_exp_s": "E_early[0] / I_early[0]",
+    "z_lift_stage1_mm": "Z_stage_mm[1] (第二元素)",
+    "z_lift_stage2_mm": "Z_stage_mm[2] (第三元素)"
+  },
+  "keys": [
+    {
+      "hashed_key_prefix": "eedee8a6e2d82149",
+      "name": "I_norm_mWcm2",
+      "desc": "标准层光强 (mW/cm²)",
+      "unit": "mW/cm²",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "6b1dabe9ff35bdbe",
+      "name": "I_early",
+      "desc": "底层/早期层光强数组 (mW/cm²)",
+      "unit": "mW/cm²",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "e3916fb5996fed89",
+      "name": "I_trans",
+      "desc": "过渡层光强数组 (mW/cm²)",
+      "unit": "mW/cm²",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "eb9e91c150257c8c",
+      "name": "E_norm_mJcm2",
+      "desc": "标准层曝光能量密度 (mJ/cm²)",
+      "unit": "mJ/cm²",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "1add9f6996ac55c2",
+      "name": "E_early",
+      "desc": "底层附着层曝光能量数组 (mJ/cm²)",
+      "unit": "mJ/cm²",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "246dc16e6999f1b4",
+      "name": "E_trans",
+      "desc": "过渡层曝光能量衰减序列 (mJ/cm²)",
+      "unit": "mJ/cm²",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "df7917bb9d251482",
+      "name": "t_wait_early",
+      "desc": "过渡层/早期层曝光前静置等待时间序列 (s)",
+      "unit": "s",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "e36693c62efe",
+      "name": "t_wait_firstLayer",
+      "desc": "首层下压泄压等待时间 (s)（df7917 首元素别名）",
+      "unit": "s",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "fca66697bdf95aa8",
+      "name": "A_bp",
+      "desc": "截面面积插值断点数组 (mm²)",
+      "unit": "mm²",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "8db56a48e9aecd8b",
+      "name": "area_wait",
+      "desc": "按截面面积插值的压合等待/剥离参数数组",
+      "unit": "s",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "fc9dd311a1b7e518",
+      "name": "Z_stage_mm",
+      "desc": "Z 轴剥离分段切换高度阈值 (mm) -> z_lift_stage1/stage2",
+      "unit": "mm",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "6adfb94966021c78",
+      "name": "v_z1",
+      "desc": "Z 轴一段剥离速度数组 (mm/s)",
+      "unit": "mm/s",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "93d3977b1da4bbac",
+      "name": "v_z2",
+      "desc": "Z 轴二段剥离速度数组 (mm/s)",
+      "unit": "mm/s",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "3dfa688b8fee3838",
+      "name": "v_z3",
+      "desc": "Z 轴三段剥离速度数组 (mm/s)",
+      "unit": "mm/s",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "b96990fc44587e5a",
+      "name": "T_print_C",
+      "desc": "打印期稳态目标槽温 (°C)",
+      "unit": "°C",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "b1bce5d1213f4f67",
+      "name": "T_start_C",
+      "desc": "起印解锁温度 (°C)（已解名 heater_resinStartTemperature_C）",
+      "unit": "°C",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "e55695f4e97f4a03",
+      "name": "T_min_C",
+      "desc": "最低安全温度下限 (°C)",
+      "unit": "°C",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "65b39b3c3f59818d",
+      "name": "tank_film_type",
+      "desc": "树脂槽离型膜类型标识 (Standard/Pmp/FepPet)",
+      "unit": "str",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "d5a1b6c57bc3d1c2",
+      "name": "pixel_pitch_x_mm",
+      "desc": "LCD 物理像素尺寸 X (mm)",
+      "unit": "mm",
+      "verified": true
+    },
+    {
+      "hashed_key_prefix": "d78eb7a8958b2d21",
+      "name": "pixel_pitch_y_mm",
+      "desc": "LCD 物理像素尺寸 Y (mm)",
+      "unit": "mm",
+      "verified": true
+    }
+  ]
+}

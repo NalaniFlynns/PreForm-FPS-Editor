@@ -1,0 +1,241 @@
+{
+ "FLGPGR41": [
+  "Default"
+ ],
+ "FLESDS01": [
+  "Default",
+  "Legacy"
+ ],
+ "FLRG1011": [
+  "Default"
+ ],
+ "BGTQB101": [
+  "Default"
+ ],
+ "FLPTA301": [
+  "Default"
+ ],
+ "FLCWPU01": [
+  "Default"
+ ],
+ "FLDBOP02": [
+  "Default",
+  "Production Optimized"
+ ],
+ "FLGPGR05": [
+  "Default",
+  "Finer Touchpoints"
+ ],
+ "FLTO1001": [
+  "Default",
+  "Supports V2"
+ ],
+ "FLBMBL01": [
+  "Default"
+ ],
+ "FLDUCL21": [
+  "Default"
+ ],
+ "FLGPWH05": [
+  "Default"
+ ],
+ "FLFRGR01": [
+  "Default"
+ ],
+ "FLAL4N01": [
+  "Default"
+ ],
+ "FLTO1511": [
+  "Default"
+ ],
+ "FLIBFL01": [
+  "Default"
+ ],
+ "FLGPCL05": [
+  "Default",
+  "Gloss Tank"
+ ],
+ "BGTQA201": [
+  "Default"
+ ],
+ "FLFMGR01": [
+  "Default",
+  "Fast Arch"
+ ],
+ "FLDBLP01": [
+  "Default"
+ ],
+ "FLTO2002": [
+  "Default",
+  "Supports V2"
+ ],
+ "FLDBDP02": [
+  "Default",
+  "Production Optimized"
+ ],
+ "FLBMCL01": [
+  "Default"
+ ],
+ "FLDBOP01": [
+  "Default"
+ ],
+ "FLBMDU11": [
+  "Default"
+ ],
+ "FLGPCB01": [
+  "Default"
+ ],
+ "FLRGWH01": [
+  "Default"
+ ],
+ "FLTCLV01": [
+  "Default",
+  "Supports V2"
+ ],
+ "FLBMFL01": [
+  "Default"
+ ],
+ "FLFL8002": [
+  "Beta Testing",
+  "Default"
+ ],
+ "FLGPBK05": [
+  "Default",
+  "Supports V1",
+  "Supports V2"
+ ],
+ "BGTQA301": [
+  "Default"
+ ],
+ "FLPTBL01": [
+  "Default"
+ ],
+ "FLPTA201": [
+  "Default"
+ ],
+ "FLDLCL02": [
+  "Default",
+  "Gloss Tank"
+ ],
+ "FLSI4001": [
+  "Default"
+ ],
+ "FLDBLP02": [
+  "Default",
+  "Production Optimized"
+ ],
+ "FLHTAM02": [
+  "Default"
+ ],
+ "FLBMWH01": [
+  "Default"
+ ],
+ "FLCTBL01": [
+  "Default"
+ ],
+ "FLBMAM01": [
+  "Default"
+ ],
+ "FLTO1502": [
+  "Default",
+  "Supports V2"
+ ],
+ "FLTO2001": [
+  "Default"
+ ],
+ "FLCCCL01": [
+  "Default"
+ ],
+ "FLPMBE01": [
+  "Default"
+ ],
+ "FLSGAM01": [
+  "Default"
+ ],
+ "FLBMEL01": [
+  "Default"
+ ],
+ "FLPTB101": [
+  "Default"
+ ],
+ "FLTO2011": [
+  "Default",
+  "Legacy"
+ ],
+ "FLDLCO11": [
+  "Default",
+  "Gloss Tank"
+ ],
+ "FLELCL02": [
+  "Default"
+ ],
+ "FLFL8011": [
+  "Default"
+ ],
+ "FLDBRP01": [
+  "Default"
+ ],
+ "FLOPEN01": [
+  "Default"
+ ],
+ "FLAPMD01": [
+  "Default",
+  "Large Parts"
+ ],
+ "FLAPBK01": [
+  "Default"
+ ],
+ "FLAPCL01": [
+  "Default"
+ ],
+ "FLAPWH01": [
+  "Default"
+ ],
+ "FLAPFA01": [
+  "Default"
+ ],
+ "FLAPGR01": [
+  "Default"
+ ],
+ "FLST1502": [
+  "Default"
+ ],
+ "FLP12B01": [
+  "Default",
+  "Legacy",
+  "Speed Optimized"
+ ],
+ "FLP12G01": [
+  "Balanced",
+  "Beta",
+  "Default",
+  "Legacy v2.2",
+  "Legacy v4.1",
+  "Speed Optimized"
+ ],
+ "FLTP9G01": [
+  "Default",
+  "Legacy"
+ ],
+ "FLP11B01": [
+  "Default",
+  "Legacy"
+ ],
+ "FLP12T01": [
+  "Default",
+  "Legacy"
+ ],
+ "FLP11C01": [
+  "Default"
+ ],
+ "FLPLPG01": [
+  "Default"
+ ],
+ "FLP11P01": [
+  "Default"
+ ],
+ "FLP12W01": [
+  "Default",
+  "Legacy"
+ ]
+}

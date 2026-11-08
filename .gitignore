@@ -1,1 +1,25 @@
-# init
+# build artifacts
+build*/
+release/
+debug/
+*.o
+*.obj
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+Makefile*
+.qmake.stash
+*.exe
+*.dll
+
+# runtime data (large / generated)
+fps-library/
+knob-library/
+*/
+!physics-library/
+!physics-library/*
+
+# misc
+*.user
+*.bak
+.DS_Store
