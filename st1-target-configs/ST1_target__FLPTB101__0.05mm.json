@@ -1,0 +1,1023 @@
+{
+ "source": "FORM-4-0",
+ "target": "CLRK-1-2",
+ "material": "FLPTB101",
+ "layer_thickness_mm": 0.05,
+ "params": {
+  "aspectAlignModelToBuildPlatformYAxis": {
+   "form4": 2,
+   "studio1_target": 2,
+   "rule": "保持",
+   "category": "1cef7bc7"
+  },
+  "randomSamplerOptimizerNumSamples": {
+   "form4": 100,
+   "studio1_target": 100,
+   "rule": "保持",
+   "category": "1cef7bc7"
+  },
+  "aspectWeightMinimalHeight": {
+   "form4": 1,
+   "studio1_target": 1,
+   "rule": "保持",
+   "category": "1cef7bc7"
+  },
+  "autoOrientIntent": {
+   "form4": "DEFAULT",
+   "studio1_target": "DEFAULT",
+   "rule": "保持",
+   "category": "1cef7bc7"
+  },
+  "sampledMeshViewTriangleLimit": {
+   "form4": 10000,
+   "studio1_target": 10000,
+   "rule": "保持",
+   "category": "1cef7bc7"
+  },
+  "sampledMeshViewSeed": {
+   "form4": 42,
+   "studio1_target": 42,
+   "rule": "保持",
+   "category": "1cef7bc7"
+  },
+  "v02_wall_smoothing_mm": {
+   "form4": 10,
+   "studio1_target": 10,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "onBP_miniraftClosingArcTolerance_mm": {
+   "form4": 0.01,
+   "studio1_target": 0.01,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "v02_raftFootprint_fullRaft_minimumArea_mm2": {
+   "form4": 113,
+   "studio1_target": 113,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "v02_raftFootprint_miniRaft_minimumArea_mm2": {
+   "form4": 12.5,
+   "studio1_target": 12.5,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "v02_lip_bottomHeight_mm": {
+   "form4": 2.5,
+   "studio1_target": 2.5,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "v02_lip_horizontalLength_mm": {
+   "form4": 1.5,
+   "studio1_target": 1.5,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "v01_raftChamferWallHeight": {
+   "form4": 1,
+   "studio1_target": 1,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "v02_splitAnnularRafts": {
+   "form4": true,
+   "studio1_target": true,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "v02_lip_thickness_mm": {
+   "form4": 0.7,
+   "studio1_target": 0.7,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "onBP_miniRaftModelHorizontalSeparation_mm": {
+   "form4": 0.75,
+   "studio1_target": 0.75,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "v01_removalTabAttachmentDepth": {
+   "form4": 1.5,
+   "studio1_target": 1.5,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "raftLabel_enabled": {
+   "form4": true,
+   "studio1_target": true,
+   "rule": "保持",
+   "category": "28195369"
+  },
+  "partCageBarSpacingMinMax_mm": {
+   "form4": [
+    2,
+    20
+   ],
+   "studio1_target": [
+    2,
+    20
+   ],
+   "rule": "保持",
+   "category": "2de26ba4"
+  },
+  "packing3dPackingQualityParameter": {
+   "form4": 0.5,
+   "studio1_target": 0.5,
+   "rule": "保持",
+   "category": "2de26ba4"
+  },
+  "seamOverlapFactor": {
+   "form4": 1,
+   "studio1_target": 1,
+   "rule": "保持",
+   "category": "2de26ba4"
+  },
+  "identifier_materialCode": {
+   "form4": "FLPTB101",
+   "studio1_target": "FLPTB101",
+   "rule": "保持",
+   "category": "Material_Scene"
+  },
+  "settingsMinorVersion": {
+   "form4": 1,
+   "studio1_target": 1,
+   "rule": "保持",
+   "category": "Material_Scene"
+  },
+  "duplicateMaxEnabled": {
+   "form4": false,
+   "studio1_target": false,
+   "rule": "保持",
+   "category": "Material_Scene"
+  },
+  "buildVolume_tallPart_heightDiff_mm": {
+   "form4": [
+    0,
+    0,
+    20
+   ],
+   "studio1_target": [
+    0,
+    0,
+    25
+   ],
+   "rule": "ST1硬件常量",
+   "category": "Material_Scene"
+  },
+  "identifier_layerThickness_mm": {
+   "form4": 0.05,
+   "studio1_target": 0.05,
+   "rule": "保持",
+   "category": "Material_Scene"
+  },
+  "coarseLayers_enabled": {
+   "form4": false,
+   "studio1_target": false,
+   "rule": "保持",
+   "category": "Material_Scene"
+  },
+  "coarseEarlyLayer_mode": {
+   "form4": "EXPLICIT_HEIGHTS",
+   "studio1_target": "EXPLICIT_HEIGHTS",
+   "rule": "保持",
+   "category": "Material_Scene"
+  },
+  "singleLayerTouchtips_ZBleed_mm": {
+   "form4": 0.2,
+   "studio1_target": 0.3,
+   "rule": "ST1典型",
+   "category": "6ebf9a23"
+  },
+  "stiffnessDensityFactorOfSafetyModulation_modulation": {
+   "form4": [
+    0,
+    1
+   ],
+   "studio1_target": [
+    0,
+    1
+   ],
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "singleLayerTouchtips_Thickness_mm": {
+   "form4": 0.2,
+   "studio1_target": 0.2,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_scaleSupportTipCone_bottomChamferHeight": {
+   "form4": 0,
+   "studio1_target": 0,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_frangibleTrussAttachmentThickness_mm": {
+   "form4": 0.2,
+   "studio1_target": 0.2,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_toothLengthCandidates_mm": {
+   "form4": [
+    2.1,
+    2.75,
+    3.5,
+    4.5
+   ],
+   "studio1_target": [
+    2.1,
+    2.75,
+    3.5,
+    4.5
+   ],
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_noodleSupport_radius_mm": {
+   "form4": 10,
+   "studio1_target": 10,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "droppedContactLocationDebugVisualizationThreshold_mm": {
+   "form4": 0,
+   "studio1_target": 0,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_mergeDistanceLimit_mm": {
+   "form4": 3,
+   "studio1_target": 3,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_internalBottomToothLength": {
+   "form4": 2,
+   "studio1_target": 2,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "compressionCorrection_mm": {
+   "form4": 0,
+   "studio1_target": 0,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_toothModelClearance_mm": {
+   "form4": 0.5,
+   "studio1_target": 0.5,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_mergeUsePP18676UpdatedHeuristics": {
+   "form4": true,
+   "studio1_target": true,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_trussWall_jitter_angleThreshold_deg": {
+   "form4": 150,
+   "studio1_target": 150,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_flatWallSupport_stiffeningDebugVisualizationEnabled": {
+   "form4": false,
+   "studio1_target": false,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "bundledSupportsMinPillarsPerBundle": {
+   "form4": 23,
+   "studio1_target": 23,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_noodleSupportMaxRecursiveLimit": {
+   "form4": 4,
+   "studio1_target": 4,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "singleLayerTouchtips_useDiameterAsRibbonWidth": {
+   "form4": true,
+   "studio1_target": true,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "v02_maximumChamferHeight": {
+   "form4": 20,
+   "studio1_target": 20,
+   "rule": "保持",
+   "category": "6ebf9a23"
+  },
+  "camera_exposureTime_s": {
+   "form4": 0,
+   "studio1_target": 0,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "debrisDetect_zForceDelta_forceThresholdAbsolute_N": {
+   "form4": 40,
+   "studio1_target": 40,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "camera_timelapseVideo_logoMarginVertical_px": {
+   "form4": 32,
+   "studio1_target": 32,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "backlight_fan_max_overshoot_C": {
+   "form4": 0,
+   "studio1_target": 0,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "camera_timelapseVideo_captureEveryNthLayer": {
+   "form4": 2,
+   "studio1_target": 4,
+   "rule": "ST1典型",
+   "category": "a0af7134"
+  },
+  "heater_resinTemperature_ki": {
+   "form4": 0.07,
+   "studio1_target": 0.07,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "resin_densityLiquid_gpmL": {
+   "form4": 1.29,
+   "studio1_target": 1.29,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "resinManagement_fillTimeout_s": {
+   "form4": 1200,
+   "studio1_target": 1200,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "camera_readBuildPlatform_exposureTime_s": {
+   "form4": 0.005,
+   "studio1_target": 0.005,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "heater_minimumPlausibleReading_C": {
+   "form4": 1,
+   "studio1_target": 1,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "camera_blue_gain": {
+   "form4": 2.1,
+   "studio1_target": 2.1,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "camera_timelapseVideo_logoOpacity": {
+   "form4": 0.25,
+   "studio1_target": 0.25,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "camera_timelapseBuildPlatformRaiseHeightSaturationHeight_mm": {
+   "form4": 180,
+   "studio1_target": 180,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "camera_readBuildPlatform_zHeight_mm": {
+   "form4": 52,
+   "studio1_target": 3,
+   "rule": "ST1硬件常量",
+   "category": "a0af7134"
+  },
+  "camera_autoExposure_constraintMode": {
+   "form4": "CUSTOM",
+   "studio1_target": "CUSTOM",
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "thinFeatureCompensation_enabled": {
+   "form4": false,
+   "studio1_target": false,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "heater_heaterTemperature_maxIntegratedError": {
+   "form4": 25,
+   "studio1_target": 25,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "resinManagement_pumpSpeed_rpm": {
+   "form4": 40,
+   "studio1_target": 40,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "wipe_positiveSpeed_mmps": {
+   "form4": 600,
+   "studio1_target": 30,
+   "rule": "ST1硬件常量",
+   "category": "a0af7134"
+  },
+  "forceThresh_squish_perLayer_firstLayer_N": {
+   "form4": 400,
+   "studio1_target": 300.0,
+   "rule": "x0.75",
+   "category": "a0af7134"
+  },
+  "debrisDetect_scrape_x_current_fraction": {
+   "form4": 0.2,
+   "studio1_target": 0.2,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "fan_lcd_dutyCycle_prePrint": {
+   "form4": 0,
+   "studio1_target": 0,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "wipe_axis": {
+   "form4": "X",
+   "studio1_target": "X",
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "resin_earlyLayerViscosity_heights_mm": {
+   "form4": [
+    0,
+    1
+   ],
+   "studio1_target": [
+    0,
+    1
+   ],
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "forceThresh_squish_perLayer_margin_N": {
+   "form4": 9999999,
+   "studio1_target": 9999999,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "camera_autoWhiteBalance_enabled": {
+   "form4": false,
+   "studio1_target": false,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "resinManagement_continuePrintThreshold_mm": {
+   "form4": 5.5,
+   "studio1_target": 5.5,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "resin_viscosity_cP": {
+   "form4": 241,
+   "studio1_target": 241,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "dimensionalAccuracy_earlyLayer_outerBoundaryOffsets_mm": {
+   "form4": [],
+   "studio1_target": [
+    -0.25,
+    0,
+    0
+   ],
+   "rule": "ST1硬件常量",
+   "category": "a0af7134"
+  },
+  "resinManagement_overfillThreshold_mm": {
+   "form4": 15,
+   "studio1_target": 12.0,
+   "rule": "x0.8",
+   "category": "a0af7134"
+  },
+  "peel_optOut_hangWeightWindow_s": {
+   "form4": 0.2,
+   "studio1_target": 0.1,
+   "rule": "x0.5",
+   "category": "a0af7134"
+  },
+  "squish_wait_areaExponentialDecayThicknessMetric": {
+   "form4": "SLICE_HEIGHT",
+   "studio1_target": "SLICE_HEIGHT",
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "z_bleed_compensation_exclude_regions": {
+   "form4": [
+    "TOUCHTIPS",
+    "SUPPORTS",
+    "RAFTS"
+   ],
+   "studio1_target": [
+    "TOUCHTIPS",
+    "SUPPORTS",
+    "RAFTS"
+   ],
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "wipe_acceleration_mmps2": {
+   "form4": 5000,
+   "studio1_target": 5000,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "preprintWipe_weirNegativeMoveSpeed_mmps": {
+   "form4": 100,
+   "studio1_target": 10,
+   "rule": "ST1硬件常量",
+   "category": "a0af7134"
+  },
+  "heater_resinStartTemperature_C": {
+   "form4": 35,
+   "studio1_target": 35,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "resinManagement_cartridgeFlowRate_mLps": {
+   "form4": 1,
+   "studio1_target": 1,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "wipe_weirNegativeMoveSpeed_mmps": {
+   "form4": 250,
+   "studio1_target": 10,
+   "rule": "ST1硬件常量",
+   "category": "a0af7134"
+  },
+  "camera_autoExposure_value": {
+   "form4": -2,
+   "studio1_target": -2,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "unsharp_negativeTruncate": {
+   "form4": 2.5,
+   "studio1_target": 2.5,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "squish_earlyLayer_inResinMaxVelocities_mmps": {
+   "form4": [
+    6,
+    6,
+    60
+   ],
+   "studio1_target": [
+    6,
+    6,
+    60
+   ],
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "printTimeEstimation_pixelPitch_multiplier_y": {
+   "form4": 40,
+   "studio1_target": 40,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "peel_liftAreaMode": {
+   "form4": "SCENE_TOTAL_LAYER_AREA",
+   "studio1_target": "SCENE_TOTAL_LAYER_AREA",
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "wipe_decay_mode": {
+   "form4": "DYNAMIC",
+   "studio1_target": "DYNAMIC",
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "wipe_negativeSpeed_mmps": {
+   "form4": 600,
+   "studio1_target": 30,
+   "rule": "ST1硬件常量",
+   "category": "a0af7134"
+  },
+  "dimensionalAccuracy_raft_outerBoundaryOffset_mm": {
+   "form4": 0,
+   "studio1_target": 0,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "camera_autoExposure_meteringMode": {
+   "form4": "CUSTOM",
+   "studio1_target": "CUSTOM",
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "display_originOffset_y_mm": {
+   "form4": 1,
+   "studio1_target": 0,
+   "rule": "ST1硬件常量",
+   "category": "a0af7134"
+  },
+  "heater_resinTemperature_kd": {
+   "form4": 0,
+   "studio1_target": 0,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "naiveMorphology_touchtipDilation_mm": {
+   "form4": 0,
+   "studio1_target": 0,
+   "rule": "保持",
+   "category": "a0af7134"
+  },
+  "manipulator_v2_clickindicator_outline_color": {
+   "form4": "#000000",
+   "studio1_target": "#000000",
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "manipulator_v2_color_outline_active": {
+   "form4": "#000000",
+   "studio1_target": "#000000",
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "manipulator_v2_clickindicator_outline_width": {
+   "form4": 0.3,
+   "studio1_target": 0.3,
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "printability_outlines_needinessOutlineColor": {
+   "form4": "#e75444",
+   "studio1_target": "#e75444",
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "sliceSupportRaftSelectedColor": {
+   "form4": "#e46931",
+   "studio1_target": "#e46931",
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "smallMinimaRibbonDilation_mm": {
+   "form4": 0.1,
+   "studio1_target": 0.1,
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "ui_layerHeightDisplayEnabled": {
+   "form4": true,
+   "studio1_target": true,
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "backgroundClearColor": {
+   "form4": "#e7ebee",
+   "studio1_target": "#e7ebee",
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "manipulator_v2_clickindicator_radius": {
+   "form4": 1.5,
+   "studio1_target": 1.5,
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "manipulator_v2_color_z_active": {
+   "form4": "#000000",
+   "studio1_target": "#000000",
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "manipulator_v2_clickindicator_color": {
+   "form4": "#000000",
+   "studio1_target": "#000000",
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "printability_outlines_needinessOutlineUsingSobel": {
+   "form4": false,
+   "studio1_target": false,
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "printability_outlines_needinessOutlineWidth": {
+   "form4": 2.8,
+   "studio1_target": 2.8,
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "fill_rotation_baseAngles_degrees": {
+   "form4": [
+    45,
+    -45
+   ],
+   "studio1_target": [
+    45,
+    -45
+   ],
+   "rule": "保持",
+   "category": "baddf07e"
+  },
+  "v03_pixelPitch_mm": {
+   "form4": 0.2,
+   "studio1_target": 0.2,
+   "rule": "ST1硬件常量",
+   "category": "Neediness"
+  },
+  "v03_minimaHeightToTouchtipDiameterDecayOutput": {
+   "form4": [
+    0,
+    1
+   ],
+   "studio1_target": [
+    0,
+    1
+   ],
+   "rule": "保持",
+   "category": "Neediness"
+  },
+  "v02_fullModelStiffness_noiseMean_Pa": {
+   "form4": 0,
+   "studio1_target": 0,
+   "rule": "保持",
+   "category": "Neediness"
+  },
+  "v02_blueNoise_spacingScale_edge": {
+   "form4": 0.6,
+   "studio1_target": 0.6,
+   "rule": "保持",
+   "category": "Neediness"
+  },
+  "v02_uniformCoverageSupportsEnabled": {
+   "form4": false,
+   "studio1_target": false,
+   "rule": "保持",
+   "category": "Neediness"
+  },
+  "featurePointRadius_mm": {
+   "form4": 0.33,
+   "studio1_target": 0.33,
+   "rule": "保持",
+   "category": "Neediness"
+  },
+  "v03_angleToSpacingOutput_mm": {
+   "form4": [
+    5,
+    6,
+    8,
+    20,
+    30,
+    40,
+    -1
+   ],
+   "studio1_target": [
+    5,
+    6,
+    8,
+    20,
+    30,
+    40,
+    -1
+   ],
+   "rule": "保持",
+   "category": "Neediness"
+  },
+  "v02_needinessSupportsEnabled": {
+   "form4": true,
+   "studio1_target": true,
+   "rule": "保持",
+   "category": "Neediness"
+  },
+  "v02_trussWall_chamferScalingCoefficient": {
+   "form4": 0.03834824944236852,
+   "studio1_target": 0.03834824944236852,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "lattice_type": {
+   "form4": 4,
+   "studio1_target": 6,
+   "rule": "ST1典型",
+   "category": "e8e28f81"
+  },
+  "tipFailureCriteriaWeightFactors": {
+   "form4": [
+    1,
+    1,
+    1
+   ],
+   "studio1_target": [
+    1,
+    1,
+    1
+   ],
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "supportRaft_v02_wallAngle": {
+   "form4": 60,
+   "studio1_target": 60,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "v02_tinyPinMinimumRadiusBottom_mm": {
+   "form4": 0.2,
+   "studio1_target": 0.2,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "densitySlider_stiffness_reciprocalMaxDisplacements": {
+   "form4": [
+    1e-08,
+    0.005,
+    0.01,
+    0.02,
+    0.04,
+    0.3333333333,
+    0.5,
+    10,
+    548.286708
+   ],
+   "studio1_target": [
+    1e-08,
+    0.005,
+    0.01,
+    0.02,
+    0.04,
+    0.3333333333,
+    0.5,
+    10,
+    548.286708
+   ],
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "minima_adaptiveTouchtipSizeEnabled": {
+   "form4": false,
+   "studio1_target": false,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "v02_tinyPinMinimumRadiusTop_mm": {
+   "form4": 0.2,
+   "studio1_target": 0.2,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "trussWallSupports_enabled": {
+   "form4": true,
+   "studio1_target": true,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "v02_noodleBracingHeight_mm": {
+   "form4": 30,
+   "studio1_target": 30,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "lattice_minAllowedTrussAngle_deg": {
+   "form4": 30,
+   "studio1_target": 30,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "contactDiameter_mm": {
+   "form4": 0.55,
+   "studio1_target": 0.55,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "touchpointDensity": {
+   "form4": 1,
+   "studio1_target": 1,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "v02_tinyPinRatioTop": {
+   "form4": 1,
+   "studio1_target": 1,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "supportTipMaxAngleToVertical_deg": {
+   "form4": 45,
+   "studio1_target": 45,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "densitySlider_stiffness_failureForceRatios_densitiesNominal": {
+   "form4": [
+    0,
+    0.338338808071328,
+    1,
+    5.555339736,
+    6.106200859,
+    10.81809695,
+    11.73637114,
+    24.01326347,
+    125.2976252
+   ],
+   "studio1_target": [
+    0,
+    0.338338808071328,
+    1,
+    5.555339736,
+    6.106200859,
+    10.81809695,
+    11.73637114,
+    24.01326347,
+    125.2976252
+   ],
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "supportedness_maxDisplacement_mm": {
+   "form4": 0.45,
+   "studio1_target": 0.45,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "densitySlider_blueNoise_edgeInsetCoefficient": {
+   "form4": 0,
+   "studio1_target": 0,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "materialProperty_YoungsModulus_Pa": {
+   "form4": 1662186656,
+   "studio1_target": 1662186656,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "v02_tinyPinHeightToRadiusRatio": {
+   "form4": 16,
+   "studio1_target": 13,
+   "rule": "ST1典型",
+   "category": "e8e28f81"
+  },
+  "supportTipBiasLimitTowardVertical_deg": {
+   "form4": 0,
+   "studio1_target": 10,
+   "rule": "ST1典型",
+   "category": "e8e28f81"
+  },
+  "densitySlider_stiffness_loadingPointSelectionModeCentroidMultiplier": {
+   "form4": 0.5258,
+   "studio1_target": 0.5258,
+   "rule": "保持",
+   "category": "e8e28f81"
+  },
+  "densitySlider_neediness_densitiesNominal": {
+   "form4": [
+    0.01,
+    0.1,
+    1,
+    1.21,
+    1.5,
+    1.75,
+    2,
+    2.25,
+    2.5,
+    2.75,
+    3,
+    3.5,
+    4,
+    5
+   ],
+   "studio1_target": [
+    0.01,
+    0.1,
+    1,
+    1.21,
+    1.5,
+    1.75,
+    2,
+    2.25,
+    2.5,
+    2.75,
+    3,
+    3.5,
+    4,
+    5
+   ],
+   "rule": "保持",
+   "category": "e8e28f81"
+  }
+ },
+ "changed_param_count": 16
+}
