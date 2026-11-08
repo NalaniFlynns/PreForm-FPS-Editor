@@ -48,3 +48,13 @@ PreFormFpsEditor.exe --extractselftest [PreForm.exe]  # 从 PreForm.exe 提取�
 - 除三个实测锚点（Flexible 80A / Tough 1500 V2 / Clear Cast）外，其余材料的能量折减系数为
   按材料族外推，真机使用前需打样校验。
 - 本项目仅用于对自有设备与材料配置的研究与互操作，请遵守相关软件许可。
+
+## 随仓库附带的数据
+
+- `physics-library/` —— 108 份真实解码物理参数（CSV/JSON）+ 三锚点标定结果，程序运行时读取。
+- `converted-fps/` —— **83 份**由 Form 4 材料转换得到的 Form Studio 1 `.fps`（基于 FLOPEN01 开放材料模板，
+  层厚 0.05/0.1mm），`public_fields` 已写入可辨识物理量；含 `MANIFEST.csv` 与说明 `README.md`。
+- `st1-target-configs/` —— **91 份** `ST1_target__*.json` 逐参数转换结果（F4 值 / ST1 目标值 / 规则）。
+
+> 转换 FPS 的 `underlying_material` 加密块来自 FLOPEN01 开放材料模板，并非由 F4 数据重新加密；
+> 用途是实验标定与对比，不等同于官方签发配置。
